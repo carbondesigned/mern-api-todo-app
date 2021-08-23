@@ -1,0 +1,17 @@
+GET http://localhost:5000/
+
+###
+
+POST http://localhost:5000/todo/new/
+Content-Type: application/json
+
+{
+    "text": "make bed"
+}
+
+###
+
+DELETE http://localhost:5000/todo/delete/6122ad9b769e512d59f83a13
+
+###
+PUT http://localhost:5000/todo/complete/6122ad53769e512d59f83a11
